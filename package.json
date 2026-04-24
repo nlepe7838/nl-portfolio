@@ -9,7 +9,7 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "build": "expo export --platform web",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages --nojekyll -d dist"
   },
   "dependencies": {
     "@expo/metro-runtime": "~6.1.2",
